@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.balance-section {
+  text-align: center;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.actions button {
+  flex: 1;
+  margin: 4px;
+  padding: 10px;
+  background-color: #232f3e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.transactions {
+  background-color: #e8f0fe;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.transactions ul {
+  list-style: none;
+  padding: 0;
+}
