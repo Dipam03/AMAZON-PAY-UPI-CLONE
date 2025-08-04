@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazon Pay Home</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Amazon Pay</h1>
+      <p id="greeting">Hello, User</p>
+    </header>
+
+    <section class="balance-section">
+      <h2>Wallet Balance</h2>
+      <p id="balance">₹0.00</p>
+      <button onclick="addMoney()">Add Money</button>
+    </section>
+
+    <section class="actions">
+      <button onclick="pay()">Pay</button>
+      <button onclick="sendMoney()">Send Money</button>
+      <button onclick="viewOffers()">View Offers</button>
+    </section>
+
+    <section class="transactions">
+      <h2>Recent Transactions</h2>
+      <ul id="transactionList">
+        <li>No transactions yet.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
